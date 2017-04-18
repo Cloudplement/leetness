@@ -9,7 +9,7 @@ class Leetness < Sinatra::Base
 
   # Endpoints
   get "/" do
-    "#{link_to Leetize.translate("Hello, World!")}"
+    "#{Leetize.translate("Hello, World!")}"
   end
 
   namespace "/api/v1" do
