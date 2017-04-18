@@ -22,14 +22,14 @@ Leetness is a Sinatra app that translates english to 1337 speak using the [Leeti
 
 ## Example Request
 
-GET http://localhost:4567/api/v1/leetize.json?q=Hello%20world
+GET http://localhost:4567/api/v1/leetize.json?q=Hello%20,World!
 
 ## Example Response
 
 ```json
 {
-  query: "Hello world",
-  translation: "h3ll0 w0rld"
+  query: "Hello, World!",
+  translation: "h3ll0, w0rld!"
 }
 ```
 
@@ -57,8 +57,21 @@ $ rackup -p 4567
 4. Translate using a GET request:
 
 ```bash
-$ curl "http://localhost:4567/api/v1/leetize.json?q=Hello%20world"
-> {"query":"Hello world","translation":"h3ll0 w0rld"}
+$ curl "http://localhost:4567/api/v1/leetize.json?q=Hello,%20World!"
+> {"query":"Hello, World!","translation":"h3ll0, w0rld!"}
+```
+
+## Example Application
+
+Test the API on [http://leetness.cloudplement.com/](http://leetness.cloudplement.com/), hosted on [Heroku](https://www.heroku.com/). Visiting the root of the domain on your browser will yield a translated "Hello, World!", "h3ll0, w0rld!".
+
+- Test API, using the browser: `http://leetness.cloudplement.com/api/v1/leetize.json?q=Hello,%20World!` and you will see: `{"query":"Hello, World!","translation":"h3ll0, w0rld!"}`
+
+- Test API, using the terminal:
+
+```bash
+$ curl "http://leetness.cloudplement.com/api/v1/leetize.json?q=Hello,%20World!"
+> {"query":"Hello, World!","translation":"h3ll0, w0rld!"}
 ```
 
 ## Contributing
