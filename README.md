@@ -65,6 +65,10 @@ $ curl "http://localhost:4567/api/v1/leetize.json?q=Hello%20world"
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/Cloudplement/leetness.
 
+## Code Status
+
+[![Build Status](https://travis-ci.org/Cloudplement/leetness.svg?branch=master)](https://travis-ci.org/Cloudplement/leetize) [![Code Climate](https://codeclimate.com/github/Cloudplement/leetness/badges/gpa.svg)](https://codeclimate.com/github/Cloudplement/leetness)
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
