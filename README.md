@@ -57,7 +57,7 @@ $ rackup -p 4567
 4. Translate using a GET request:
 
 ```bash
-$ curl "http://localhost:4567/api/v1/leetize.json?q=Hello,%20World!"
+$ curl http://localhost:4567/api/v1/leetize.json?q=Hello,%20World!
 > {"query":"Hello, World!","translation":"h3ll0, w0rld!"}
 ```
 
