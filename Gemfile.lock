@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/Cloudplement/leetize.git
+  remote: https://github.com/cloudplement/leetize.git
   revision: fa3c1ca12e94055f97e63663e13e34d1ec0436b6
   specs:
     leetize (0.1.0)
