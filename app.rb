@@ -1,6 +1,6 @@
-require 'sinatra/base'
+require "sinatra/base"
 require "sinatra/namespace"
-require 'sinatra/param'
+require "sinatra/param"
 require "json"
 require "leetize"
 
