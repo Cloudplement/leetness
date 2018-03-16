@@ -5,14 +5,18 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rake'
+gem "rake"
 gem "sinatra"
 gem "sinatra-contrib"
 gem "sinatra-param"
 
 gem "leetize", github: "cloudplement/leetize"
 
+group :development, :test do
+  gem "rubocop", require: false
+end
+
 group :test do
-  gem 'minitest'
-  gem 'rack-test'
+  gem "minitest"
+  gem "rack-test"
 end
