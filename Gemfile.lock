@@ -7,13 +7,13 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    ast (2.4.0)
+    ast (2.4.2)
     backports (3.11.1)
     minitest (5.11.3)
     multi_json (1.13.1)
     parallel (1.12.1)
-    parser (2.5.0.4)
-      ast (~> 2.4.0)
+    parser (3.0.3.2)
+      ast (~> 2.4.1)
     powerpack (0.1.1)
     rack (1.6.9)
     rack-protection (1.5.5)
@@ -21,7 +21,7 @@ GEM
     rack-test (0.8.3)
       rack (>= 1.0, < 3)
     rainbow (3.0.0)
-    rake (12.3.0)
+    rake (12.3.3)
     rubocop (0.53.0)
       parallel (~> 1.10)
       parser (>= 2.5)
