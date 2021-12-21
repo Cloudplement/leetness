@@ -15,7 +15,7 @@ GEM
     parser (3.0.3.2)
       ast (~> 2.4.1)
     powerpack (0.1.1)
-    rack (1.6.9)
+    rack (1.6.13)
     rack-protection (1.5.5)
       rack
     rack-test (0.8.3)
